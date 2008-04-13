@@ -1,0 +1,32 @@
+﻿p 
+{
+	color: Olive;
+	font-family: Fantasy, cursive;
+}
+
+p:first-line
+{
+	font-weight: bold;
+}
+
+p:first-letter
+{
+	font-size: 18pt;
+	padding-left: 1em;
+}
+
+/*
+p:hover
+{
+	font-style: italic;
+}
+*/
+
+h1 + p:first-letter
+{
+	border: solid medium Red;
+	color: Red;
+	font-style: italic;
+	font-size: 32pt;
+	padding: 2px;
+}
